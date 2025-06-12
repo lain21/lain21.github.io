@@ -1,11 +1,246 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>hola</h1>
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currículum y Portafolio - Abraham Muñoz</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- 🔵 Barra de navegación -->
+    <header class="bg-primary text-white p-3 sticky-top">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="h5 m-0">Abraham Muñoz</h1>
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#educacion">Educación</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#portafolio">Portafolio</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <!-- 🟢 Sección Sobre mí -->
+      <section id="sobre-mi" class="py-5 border-bottom">
+        <h2 class="mb-4">Sobre mí</h2>
+        <div class="row align-items-center">
+          <!-- Imagen -->
+          <div class="col-md-4 text-center mb-4 mb-md-0">
+            <img
+              src="assets/img/foto-perfil.png"
+              alt="Foto de Abraham"
+              class="img-fluid rounded-circle shadow"
+              style="max-width: 250px"
+            />
+          </div>
+
+          <!-- Texto -->
+          <div class="col-md-8">
+            <p>
+              Ingeniero en Informática y Analista de Datos con más de 5 años de
+              experiencia, especializado en desarrollar soluciones eficientes
+              bajo presión. He liderado proyectos en operaciones TI y análisis
+              de datos, garantizando la continuidad operativa y optimizando
+              procesos mediante PL/SQL.
+            </p>
+            <p>
+              Soy autodidacta y meticuloso, con un enfoque crítico y sistémico
+              que me permite resolver problemas complejos de forma efectiva. A
+              lo largo de mi carrera, he trabajado con tecnologías como SQL
+              Server y Oracle, y actualmente me estoy perfeccionando en análisis
+              y ciencia de datos para generar impacto con soluciones
+              tecnológicas innovadoras.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🟡 Sección Educación -->
+
+      <section id="formacion" class="py-5 border-bottom">
+        <h2 class="mb-5 text-center">Formación y Especialización</h2>
+        <div class="row row-cols-1 row-cols-md-4 g-4">
+          <!-- Ingeniero en Informática -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm">
+              <img
+                src="assets/img/utem.png"
+                class="card-img-top p-3"
+                alt="Ingeniero en Informática"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Ingeniero en Informática</h5>
+                <p class="card-text">
+                  Formación técnica y profesional en desarrollo de sistemas,
+                  arquitectura de datos y redes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Analyst -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm">
+              <img
+                src="assets/img/analista_datos.png"
+                class="card-img-top p-3"
+                alt="Data Analyst"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Analyst</h5>
+                <p class="card-text">
+                  Experiencia en manejo, limpieza, análisis y visualización de
+                  datos con SQL y dashboards.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Scientist -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm">
+              <img
+                src="assets/img/cientifico_datos.png"
+                class="card-img-top p-3"
+                alt="Data Scientist"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Scientist</h5>
+                <p class="card-text">
+                  Capacitación avanzada en análisis predictivo, machine learning
+                  y estadística aplicada.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Full Stack JS -->
+          <div class="col">
+            <div class="card h-100 text-center shadow-sm border-primary">
+              <img
+                src="assets/img/fullstack.png"
+                class="card-img-top p-3"
+                alt="Full Stack JS"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Full Stack JavaScript</h5>
+                <p class="card-text text-primary fw-bold">
+                  En curso: desarrollo web completo con HTML, CSS, JS y
+                  frameworks modernos.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🟠 Sección Experiencia -->
+      <section id="experiencia" class="py-5 border-bottom">
+        <h2 class="mb-5 text-center">Experiencia</h2>
+
+        <!-- Fonasa -->
+        <div class="row align-items-center mb-5">
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="assets/img/fonasa.png"
+              alt="Fonasa"
+              class="img-fluid"
+              style="max-height: 120px"
+            />
+          </div>
+          <div class="col-md-10">
+            <h5 class="mb-1">Fondo Nacional de Salud (FONASA)</h5>
+            <p class="text-muted mb-2">Nov. 2024 – Actualidad</p>
+            <p>
+              Encargado de extraer, transformar y analizar datos relacionados
+              con licencias médicas y resoluciones. Automatización de reportes,
+              control de prestadores y gestión de dictámenes.
+            </p>
+            <p class="mb-0">
+              <strong>Herramientas:</strong> SQL, Python, Tableau, Excel,
+              procesos ETL.
+            </p>
+          </div>
+        </div>
+
+        <!-- Plus Consulting -->
+        <div class="row align-items-center mb-4">
+          <div
+            class="col-md-2 d-flex justify-content-center align-items-center"
+          >
+            <img
+              src="assets/img/plus.png"
+              alt="Plus Consulting"
+              class="img-fluid"
+              style="max-height: 120px"
+            />
+          </div>
+          <div class="col-md-10">
+            <h5 class="mb-1">Plus Consulting Servicios de Cobranza</h5>
+            <p class="text-muted mb-2">Ago. 2018 – Jun. 2024</p>
+            <p>
+              Administración y optimización de bases de datos Oracle y SQL
+              Server. Implementación de respaldos, seguridad, rendimiento y
+              soporte técnico. Documentación de procesos y cumplimiento
+              normativo.
+            </p>
+            <p class="mb-0">
+              <strong>Herramientas:</strong> SQL Server, Oracle, procedimientos
+              almacenados.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- 🟣 Sección Portafolio -->
+      <section id="portafolio">
+        <h2 class="mb-4">Portafolio</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 shadow">
+              <img
+                src="assets/img/foto-perfil.png"
+                class="card-img-top"
+                alt="Proyecto 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Proyecto 1</h5>
+                <p class="card-text">
+                  Descripción breve del proyecto realizado con HTML, CSS y JS.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Agrega más proyectos aquí -->
+        </div>
+      </section>
+    </main>
+
+    <!-- 🔴 Footer -->
+    <footer class="bg-primary text-white text-center p-3 mt-5">
+      <p>
+        © 2025 Abraham Muñoz |
+        <a href="mailto:abraham@example.com" class="text-white"
+          >abraham@example.com</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
