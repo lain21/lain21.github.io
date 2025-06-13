@@ -29,6 +29,14 @@ section:last-of-type {
 .card:hover {
   transform: scale(1.02);
 }
+
+/* Imagen logos experiencia */
 #experiencia img {
   max-height: 200px !important;
+}
+
+/* Imagenes del portafolio (tamaño uniforme) */
+.portafolio-img {
+  height: 250px;
+  object-fit: cover;
 }
